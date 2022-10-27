@@ -14,7 +14,7 @@ jobs:
           outputDefine: public
           notOutputSuccess: true
       - name: Finish output
-        run: echo "NoNameSkyBlock Datapack's check was successfully."
+        run: echo "NNSB Datapack's check was successfully."
   artifact:
     needs: lint
     runs-on: ubuntu-latest
